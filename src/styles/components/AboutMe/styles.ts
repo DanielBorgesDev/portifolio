@@ -17,7 +17,7 @@ const StyledGrid = styled.div`
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
   grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto 1fr;
   grid-auto-columns: 1fr;
   align-items: center;
   display: grid;
@@ -25,10 +25,23 @@ const StyledGrid = styled.div`
 
 export const StyledImage = styled.img`
   width: 100%;
+  max-width: 12.5rem;
+  vertical-align: middle;
   border-radius: 50%;
   overflow: hidden;
   transform: translate(0);
 `;
+
+export const TextArea = styled.div`
+display: block;
+    unicode-bidi: isolate;
+`
+export const AboutMeH1 = styled.div`
+  color: #964b00 ;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.278em;
+`
 
 
 export default StyledGrid;

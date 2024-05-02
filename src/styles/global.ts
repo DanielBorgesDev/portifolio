@@ -13,18 +13,17 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background-color: ${(props) => props.theme['white']};
-        -webkit-font-smoothing: antialiased;
-        padding: 0 10rem;
-
-        @media (min-width: 768px) and (max-width: 1366px){
-            padding: 0 5rem;
-        }
+        background-color: #fbfbfb;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
     }
     
     body, input, textarea, button {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;   
-        font-size: 1rem;
+        color: black;
+        font-family: Inter, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.714em;
     }
 `

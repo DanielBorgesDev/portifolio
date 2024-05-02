@@ -1,15 +1,28 @@
 import React from "react";
-import StyledGrid, { CenteredContainer, CenteredContainerAboutMed, StyledImage } from "./styles";
+import StyledGrid, {
+  AboutMeH1,
+  CenteredContainer,
+  CenteredContainerAboutMed,
+  StyledImage,
+  TextArea,
+} from "./styles";
+import Myself from "../../../assets/me.jpg";
 
 const AboutMe = () => {
   return (
     <CenteredContainer>
       <CenteredContainerAboutMed>
-      <StyledGrid>
-        <StyledImage src="../../../assets/me.jpg" alt="Descrição da imagem" />
-
-            
-      </StyledGrid>
+        <StyledGrid>
+          <StyledImage src={Myself} alt="Descrição da imagem" />
+          <div>
+            <TextArea>
+              <AboutMeH1>
+                Hello, I am Daniel Borges.
+                <br />A Software Developer.
+              </AboutMeH1>
+            </TextArea>
+          </div>
+        </StyledGrid>
       </CenteredContainerAboutMed>
     </CenteredContainer>
   );
