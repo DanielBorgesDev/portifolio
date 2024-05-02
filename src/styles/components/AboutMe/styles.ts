@@ -39,7 +39,7 @@ export const TextArea = styled.div`
 `
 export const AboutMeH1 = styled.div`
   color: #964b00 ;
-    font-size: Z;
+    font-size: 2.25rem;
     font-weight: 500;
     line-height: 1.278em;
 `
