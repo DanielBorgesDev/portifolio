@@ -9,7 +9,6 @@ export const GlobalStyle = createGlobalStyle`
 
     :focus {
         outline: 0;
-        box-shadow: 0 0 0 2px ${(props) => props.theme['yellow-600']};
     }
 
     body {
@@ -17,6 +16,15 @@ export const GlobalStyle = createGlobalStyle`
         flex-direction: column;
         align-items: center;
         display: flex;
+     
+    }
+    h2 {
+        color: #141414;
+        margin-top: 0;
+        margin-bottom: 8px;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 1.385em;
     }
     
     body, input, textarea, button {

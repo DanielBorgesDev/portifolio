@@ -8,14 +8,13 @@ const TypedText: React.FC = () => {
     if (!typedRef.current) return;
 
     const typed = new Typed(typedRef.current, {
-      strings: ["FULL STACK DEVELOPER", "TYPESCIPT EXPERT"], // Array de textos a serem digitados
-      typeSpeed: 50, // Velocidade de digitação (em milissegundos)
-      backSpeed: 50, // Velocidade de apagar (em milissegundos)
-      loop: true, // Repetir a animação indefinidamente
+      strings: ["FULL STACK DEVELOPER", "TYPESCIPT EXPERT"], 
+      typeSpeed: 50, 
+      backSpeed: 50, 
+      loop: true, 
       cursorChar: '<'
     });
 
-    // Limpeza do Typed.js quando o componente for desmontado
     return () => {
       typed.destroy();
     };
