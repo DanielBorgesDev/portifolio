@@ -5,6 +5,7 @@ import { defaultTheme } from "./styles/themes/default"
 import Header from "./styles/components/Header"
 import AboutMe from "./styles/components/AboutMe"
 import DividerWrapper from "./styles/components/DividerWrapper"
+import Licenses from "./styles/components/Licenses"
 
 
 export function App() {
@@ -13,6 +14,8 @@ export function App() {
       <Header/>
       <DividerWrapper/>
       <AboutMe/>
+      <DividerWrapper/>
+      <Licenses/>
       <GlobalStyle />
     </ThemeProvider>
   )
