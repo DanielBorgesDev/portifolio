@@ -21,10 +21,14 @@ export const GlobalStyle = createGlobalStyle`
     h2 {
         color: #141414;
         margin-top: 0;
-        margin-bottom: 8px;
+        margin-bottom: 16px;
         font-size: 26px;
         font-weight: 500;
         line-height: 1.385em;
+    }
+    h3 {
+        font-size: 18px;
+        line-height: 1.111em;
     }
     
     body, input, textarea, button {
