@@ -56,9 +56,9 @@ const AboutMe = () => {
             <h5>Feb 2024 - Present</h5>
           </PastExperienceTextContainer>
           <PastExperienceTextContainer>
-            <h4>Social media analyst</h4>
-            <p>Opportunity Soluções Digitais · Internship</p>
-            <h5>Sep 2020 - Feb 2021</h5>
+            <h4>Software developer</h4>
+            <p>Estúdio Haus · Full-time</p>
+            <h5>Feb 2022 - Jan 2024</h5>
           </PastExperienceTextContainer>
           <PastExperienceTextContainer>
             <h4>Developer in the development sector - DTI</h4>
@@ -66,9 +66,9 @@ const AboutMe = () => {
             <h5>Feb 2021 - Sep 2021 </h5>
           </PastExperienceTextContainer>
           <PastExperienceTextContainer>
-            <h4>Software developer</h4>
-            <p>Estúdio Haus · Full-time</p>
-            <h5>Feb 2022 - Jan 2024</h5>
+            <h4>Social media analyst</h4>
+            <p>Opportunity Soluções Digitais · Internship</p>
+            <h5>Sep 2020 - Feb 2021</h5>
           </PastExperienceTextContainer>
         </ExperienceContainer>
       </CenteredContainerAboutMe>

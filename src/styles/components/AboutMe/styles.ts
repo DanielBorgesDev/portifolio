@@ -3,11 +3,14 @@ import styled from 'styled-components';
 export const CenteredContainer = styled.div`
   width: 100%;
   padding-top: 4rem; 
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 4rem; 
   padding-bottom: 4rem; 
 `;
 
 export const CenteredContainerAboutMe = styled.div`
-  max-width: 49.5rem;
+max-width: 49.5rem;
 display: flex;
 flex-direction: row;
 justify-content: space-between; 
@@ -21,7 +24,6 @@ margin: 0 auto;
 
 export const AboutMeContainer = styled.div`
     max-width: 27.375rem;
- 
 `;
 
 export const ExperienceContainer = styled.div`
@@ -49,9 +51,6 @@ export const PastExperienceTextContainer = styled.div`
 & >  h5 {
   color:#5e5e5e ;
 }
-`
-export const CertificationContainer = styled.div`
-
 `
 
 
