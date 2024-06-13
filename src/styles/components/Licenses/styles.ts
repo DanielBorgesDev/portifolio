@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const CenteredContainer = styled.div`
    width: 100%;
   padding-top: 4rem; 
+  padding-bottom: 4rem; 
   flex-direction: column;
   gap: 2rem;
 `;
