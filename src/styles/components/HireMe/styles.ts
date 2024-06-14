@@ -6,7 +6,7 @@ export const CenteredContainer = styled.div`
   flex-direction: column;
   gap: 2rem;
 `;
-export const CenteredContainerLicenses = styled.div`
+export const CenteredContainerHireMe = styled.div`
 max-width: 49.5rem;
 display: flex;
 flex-direction: column;
