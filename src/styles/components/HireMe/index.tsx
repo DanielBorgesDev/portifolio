@@ -3,9 +3,10 @@ import {
   CenteredContainerLicenses,
   GithubButton,
   LinkedinButton,
+  SocialMediaButtons,
 } from "./styles";
-import { ReactComponent as githubIcon } "../../../assets/";
-import linkedinIcon from "../../../assets/";
+import githubIcon from "../../../assets/github-icon.svg";
+import linkedinIcon from "../../../assets/linkedin-icon.svg";
 
 const HireMe = () => {
   return (
@@ -17,14 +18,22 @@ const HireMe = () => {
           forward to connecting with you and exploring how we can collaborate or
           assist each other.
         </p>
-        <GithubButton>
-          <p>Visit my Github</p>
-          <img src={githubIcon} alt="arrow icons" />
-        </GithubButton>
-        <LinkedinButton>
-          <p>Visit my Linkedin</p>
-          <img src={linkedinIcon} alt="arrow icons" />
-        </LinkedinButton>
+        <SocialMediaButtons>
+          <GithubButton 
+              target="_blank"
+              href="https://github.com/DanteBorges"
+          >
+            <img src={githubIcon} alt="arrow icons" />
+            <p>Visit my Github</p>
+          </GithubButton>
+          <LinkedinButton 
+              target="_blank"
+              href="https://www.linkedin.com/in/daniel-fborges/"
+          >
+            <img src={linkedinIcon} alt="arrow icons" />
+            <p>Visit my Linkedin</p>
+          </LinkedinButton>
+        </SocialMediaButtons>
       </CenteredContainerLicenses>
     </CenteredContainer>
   );

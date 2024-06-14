@@ -20,7 +20,5 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": [
-    "src"
-, "src/App.tsx", "src/index.tsx", "react-app-env.d.ts", "src/reportWebVitals.ts", "src/setupTests.ts", "src/App.test.tsx"  ]
+  "include": ["next-env.d.ts", "additional.d.ts", "**/*.ts", "**/*.tsx","src/custom.d.ts"],
 }
