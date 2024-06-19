@@ -22,7 +22,6 @@ const MyForm = () => {
   const handleSubmit = async (e: { preventDefault: () => void; }) => {
     e.preventDefault();
 
-    // Definir parâmetros do template
     const serviceId = "service_86voidp";
     const templateId = "template_t32vjuw";
     const publicKey = "sDxVBY6pxqQVRuWEB";

@@ -2,9 +2,10 @@ import styled from 'styled-components';
 
 export const FormContainer = styled.form`
   display: grid;
-width: 100%;
+  width: 100%;
   grid-template-columns: 1fr;
   gap: 1.5rem;
+  margin-bottom:2rem;
 `;
 
 export const InputContainer = styled.div``;
