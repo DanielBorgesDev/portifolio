@@ -8,14 +8,9 @@ export const CenteredContainer = styled.div`
 `;
 
 export const CenteredContainerHeader = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; 
   max-width: 49.5rem;
   padding: 1.5rem;
   margin: 0 auto;
-
   @media (${Styles.devices.tablet}) {
     flex-direction: row; 
   }
@@ -24,12 +19,13 @@ export const CenteredContainerHeader = styled.div`
 export const StyledGrid = styled.div`
   display: flex;
   gap: 2rem;
-  align-items: center; 
-  justify-content: center; 
+
 
   @media (${Styles.devices.mobileL}) {
     flex-direction: column;
     padding-left:10rem;
+    align-items: center; 
+    justify-content: center; 
   }
 `;
 export const TextArea = styled.div`

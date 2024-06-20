@@ -7,6 +7,6 @@ export const ContainerDivider = styled.div`
 `;
 
 export const DividerLine = styled.div`
-height: 1px;
+height: 2px;
 background-color: #BAA89B;
 `;
