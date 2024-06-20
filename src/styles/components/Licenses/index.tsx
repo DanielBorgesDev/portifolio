@@ -3,7 +3,6 @@ import FreeCodeCampIcon from "../../../assets/free_code_camp_logo.jpeg";
 import arrowIcon from "../../../assets/northEastArow.png";
 
 import {
-  CenteredContainer,
   CenteredContainerLicenses,
   ContainerLicenses,
   IconWrapper,
@@ -16,10 +15,8 @@ import {
 
 const Licenses = () => {
   return (
-    <CenteredContainer>
       <CenteredContainerLicenses>
         <h2>Licenses</h2>
-
         <ContainerLicenses>
           <IconWrapper>
             <ImageStyled src={UniIcon} alt="Icon unimontes" />
@@ -89,7 +86,6 @@ const Licenses = () => {
           </TextsLicenses>
         </ContainerLicenses>
       </CenteredContainerLicenses>
-    </CenteredContainer>
   );
 };
 export default Licenses;

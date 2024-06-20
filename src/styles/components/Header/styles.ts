@@ -1,11 +1,7 @@
 import styled from 'styled-components';
 import { Styles } from '../../Styles';
 
-export const CenteredContainer = styled.div`
-  width: 100%;
-  padding-top: 4rem; 
-  padding-bottom: 4rem; 
-`;
+
 
 export const CenteredContainerHeader = styled.div`
   max-width: 49.5rem;

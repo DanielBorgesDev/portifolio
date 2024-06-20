@@ -8,7 +8,9 @@ export const FormContainer = styled.form`
   margin-bottom:2rem;
 `;
 
-export const InputContainer = styled.div``;
+export const InputContainer = styled.div`
+
+`;
 
 export const LabelForm = styled.label`
   position: absolute;

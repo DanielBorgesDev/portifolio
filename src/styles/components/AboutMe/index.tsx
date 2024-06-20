@@ -1,6 +1,5 @@
 import {
   AboutMeContainer,
-  CenteredContainer,
   CenteredContainerAboutMe,
   ExperienceContainer,
   PastExperienceTextContainer,
@@ -8,7 +7,6 @@ import {
 
 const AboutMe = () => {
   return (
-    <CenteredContainer>
       <CenteredContainerAboutMe>
         <AboutMeContainer>
           <h2>About Me</h2>
@@ -72,7 +70,6 @@ const AboutMe = () => {
           </PastExperienceTextContainer>
         </ExperienceContainer>
       </CenteredContainerAboutMe>
-    </CenteredContainer>
   );
 };
 export default AboutMe;
