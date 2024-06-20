@@ -1,11 +1,11 @@
 import React from "react";
-import StyledGrid, {
+import {
   AboutMeH1,
-  CenteredContainer,
   CenteredContainerHeader,
   ContainerTypeText,
   LinkContactMe,
   StyledMySelfImage,
+  StyledGrid,
   TextArea,
   IconArrowContactMe
 } from "./styles";
@@ -15,29 +15,25 @@ import Northeast from "../../../assets/northEastArow.png";
 
 const Header = () => {
   return (
-    <CenteredContainer>
-      <CenteredContainerHeader>
-        <StyledGrid>
-          <StyledMySelfImage src={Myself} alt="My self picture" />
-          <div>
-            <TextArea>
-              <AboutMeH1>
-                Hello, I am Daniel Borges.
-                <br />A Software Developer.
-              </AboutMeH1>
-              <ContainerTypeText>
-                <p>$ </p>
-                <TypedText />
-              </ContainerTypeText>
-              <LinkContactMe>
-                <div>Contact Me</div>
-                <IconArrowContactMe src={Northeast} alt="North east icon"/>
-              </LinkContactMe>
-            </TextArea>
-          </div>
-        </StyledGrid>
-      </CenteredContainerHeader>
-    </CenteredContainer>
+    <CenteredContainerHeader>
+    <StyledGrid>
+      <TextArea>
+        <AboutMeH1>
+          Hello, I am Daniel Borges.
+          <br />A Software Developer.
+        </AboutMeH1>
+        <ContainerTypeText>
+          <p>$ </p>
+          <TypedText />
+        </ContainerTypeText>
+        <LinkContactMe>
+          <div>Contact Me</div>
+          <IconArrowContactMe src={Northeast} alt="North east icon"/>
+        </LinkContactMe>
+      </TextArea>
+      <StyledMySelfImage src={Myself} alt="My self picture" />
+    </StyledGrid>
+  </CenteredContainerHeader>
   );
 };
 

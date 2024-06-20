@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Styles } from '../../Styles';
 
 export const CenteredContainer = styled.div`
   width: 100%;
@@ -7,24 +8,37 @@ export const CenteredContainer = styled.div`
 `;
 
 export const CenteredContainerHeader = styled.div`
-  max-width: 49.5rem; 
-  padding-left: 1.5rem; 
-  padding-right: 1.5rem; 
-  margin: 0 auto; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  max-width: 49.5rem;
+  padding: 1.5rem;
+  margin: 0 auto;
+
+  @media (${Styles.devices.tablet}) {
+    flex-direction: row; 
+  }
 `;
 
-const StyledGrid = styled.div`
-  grid-column-gap: 2rem;
-  grid-row-gap: 2rem;
-  grid-template-rows: auto;
-  grid-template-columns: auto 1fr;
-  grid-auto-columns: 1fr;
-  align-items: center;
-  display: grid;
+export const StyledGrid = styled.div`
+  display: flex;
+  gap: 2rem;
+  align-items: center; 
+  justify-content: center; 
+
+  @media (${Styles.devices.mobileL}) {
+    flex-direction: column;
+    padding-left:10rem;
+  }
 `;
+export const TextArea = styled.div`
+  display: block;
+  unicode-bidi: isolate;
+
+`
 
 export const StyledMySelfImage = styled.img`
-  width: 100%;
   max-width: 12.5rem;
   vertical-align: middle;
   border-radius: 50%;
@@ -32,11 +46,7 @@ export const StyledMySelfImage = styled.img`
   transform: translate(0);
 `;
 
-export const TextArea = styled.div`
-  width: 100%;
-  display: block;
-  unicode-bidi: isolate;
-`
+
 export const AboutMeH1 = styled.div`
   color: #964b00 ;
     font-size: 2.25rem;
@@ -79,4 +89,3 @@ export const LinkContactMe = styled.a`
 
 
 
-export default StyledGrid;
