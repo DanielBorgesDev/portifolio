@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Styles } from '../../Styles';
 
 
 
@@ -11,17 +12,29 @@ gap:3rem;
 align-items: flex-start;
 padding: 0 2rem;
 margin: 0 auto;
+@media (${Styles.devices.mobileL}) {
+  flex-direction: column;
+  align-items: center;
 
+}
 
 `;
 
 export const AboutMeContainer = styled.div`
     max-width: 27.375rem;
+
+@media (${Styles.devices.mobileL}) {
+  padding-left:2rem;
+}
 `;
 
 export const ExperienceContainer = styled.div`
  display: flex;
  flex-direction: column;
+ padding: 0;
+@media (${Styles.devices.mobileL}) {
+  margin-left:-5rem;
+}
    & > h3{
     margin-top: 0;
     margin-bottom: 16px;
