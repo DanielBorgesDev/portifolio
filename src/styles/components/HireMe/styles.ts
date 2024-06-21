@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Styles } from '../../Styles';
 
 export const CenteredContainer = styled.div`
    width: 100%;
@@ -21,6 +22,7 @@ export const SocialMediaButtons = styled.div`
 width: 100%;
 display: flex;
 justify-content: space-between;
+
 `
 
 
@@ -48,6 +50,11 @@ export const GithubButton = styled.a`
     & p {
         font-weight: 500;
     }
+    @media (${Styles.devices.mobileL}) {
+        width: 10rem;
+}
+  
+
 `
 export const LinkedinButton = styled.a`
    width: 12rem;
@@ -73,4 +80,7 @@ export const LinkedinButton = styled.a`
     & p {
         font-weight: 500;
     }
+    @media (${Styles.devices.mobileL}) {
+        width: 10rem;
+}
 `

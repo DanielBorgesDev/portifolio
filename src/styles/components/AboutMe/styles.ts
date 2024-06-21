@@ -23,9 +23,7 @@ margin: 0 auto;
 export const AboutMeContainer = styled.div`
     max-width: 27.375rem;
 
-@media (${Styles.devices.mobileL}) {
-  padding-left:2rem;
-}
+
 `;
 
 export const ExperienceContainer = styled.div`

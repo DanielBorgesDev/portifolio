@@ -99,10 +99,9 @@ color: inherit;
   height: 1rem;
   padding-bottom: 2px;
 }
-
 @media (${Styles.devices.mobileL}) {
-  width: 100%;
-  padding: 0.8rem;
-  gap: 0.5rem;
-}
+    max-width: 300px; 
+    padding: 0.8rem;
+    gap: 0.5rem;
+  }
 `;
