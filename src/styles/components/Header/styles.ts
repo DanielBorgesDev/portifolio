@@ -19,7 +19,6 @@ export const StyledGrid = styled.div`
 
   @media (${Styles.devices.mobileL}) {
     flex-direction: column;
-    padding-left:10rem;
     align-items: center; 
     justify-content: center; 
   }
