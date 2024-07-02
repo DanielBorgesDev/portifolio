@@ -69,13 +69,16 @@ export const LinkContactMe = styled.a`
   align-items: center;
   font-weight: 500;
   line-height: 1.143em;
-
+  text-decoration: none;
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  overflow: hidden; /* Esconder o excesso de borda fora do botão */
   &:hover {
     ${IconArrowContactMe} {
       transform: translate(3px, -3px);
       transition: transform 0.3s ease; 
     }
   }
+  
 `;
 
 
