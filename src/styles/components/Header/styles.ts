@@ -67,18 +67,26 @@ export const LinkContactMe = styled.a`
   cursor:pointer;
   display: flex;
   align-items: center;
-  font-weight: 500;
-  line-height: 1.143em;
+  font-weight: 700;
+  line-height: 2em;
   text-decoration: none;
-  padding: 10px 20px; /* Espaçamento interno do botão */
-  overflow: hidden; /* Esconder o excesso de borda fora do botão */
+  overflow: hidden; 
+  width: 10rem;
+  border-radius: 1.6rem;
+  padding: 0 1.6rem;
+  border: 1px solid #000;
+  ${IconArrowContactMe} {
+      color: #000;
+    }
   &:hover {
+    transition: background-color 0.8s ease;
+    background-color: #eae5e1;
     ${IconArrowContactMe} {
       transform: translate(3px, -3px);
-      transition: transform 0.3s ease; 
     }
+
   }
-  
+    
 `;
 
 

@@ -105,3 +105,13 @@ color: inherit;
     gap: 0.5rem;
   }
 `;
+
+
+
+export const SimpleText = styled.div`
+width: 14rem;
+border-radius: 1.6rem;
+padding: 0 1.6rem;
+border: 1px solid #5e5e5e;
+`;
+
