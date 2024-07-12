@@ -58,13 +58,16 @@ export const IconArrowContactMe = styled.img`
   width: 1rem;  
   transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: invert(35%) sepia(0%) saturate(0%) hue-rotate(178deg) brightness(95%) contrast(88%);
   margin-left: 0.375rem;
   display: inline-block;
 `;
 
+
 export const LinkContactMe = styled.a`
-  color:#000;
-  cursor:pointer;
+  color: #595959;
+  cursor: pointer;
   display: flex;
   align-items: center;
   font-weight: 700;
@@ -74,20 +77,16 @@ export const LinkContactMe = styled.a`
   width: 10rem;
   border-radius: 1.6rem;
   padding: 0 1.6rem;
-  border: 1px solid #000;
-  ${IconArrowContactMe} {
-      color: #000;
-    }
+  border: 1px solid #595959; 
   &:hover {
+    color: #000;
     transition: background-color 0.8s ease;
     background-color: #eae5e1;
     ${IconArrowContactMe} {
       transform: translate(3px, -3px);
+      filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);
     }
-
   }
-    
 `;
-
 
 

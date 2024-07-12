@@ -12,6 +12,7 @@ align-items: flex-start;
 padding: 0 2rem;
 margin: 0 auto;
 
+
 `;export const ContainerLicenses = styled.div`
 max-height: 20.5rem;
 width: 760px;
