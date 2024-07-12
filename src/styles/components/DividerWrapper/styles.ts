@@ -3,7 +3,7 @@ import { Styles } from "../../Styles";
 
 export const ContainerDivider = styled.div`
     max-width: 792px;
-    padding:3rem 1.5rem;
+    padding:4rem 1.5rem;
     @media (${Styles.devices.mobileL}) {
         padding:4rem 0rem;
   }

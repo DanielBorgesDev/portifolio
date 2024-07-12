@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Styles } from '../../Styles';
 
 
-export const SectionLicenses = styled.section`
+export const CenteredContainerLicenses = styled.div`
 max-width: 49.5rem;
 padding: 0 2rem;
 margin: 0 auto;
@@ -17,17 +17,16 @@ flex-direction: column;
 justify-content: space-between; 
 gap:3rem;
 align-items: flex-start;
-`;
-
-export const LicenseItem = styled.div`
+padding: 0 2rem;
+margin: 0 auto;
 max-height: 20.5rem;
 width: 760px;
 margin-bottom: 16px;
 display: flex;
-align-items: center;
 gap: 3rem;
 border: 1px solid #ccc;
 border-radius: 10px;
+align-items: center;
 padding: 1rem 2rem;
 margin: 0 auto;
 
