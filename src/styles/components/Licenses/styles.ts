@@ -2,26 +2,33 @@ import styled from 'styled-components';
 import { Styles } from '../../Styles';
 
 
-export const CenteredContainerLicenses = styled.div`
+export const SectionLicenses = styled.section`
 max-width: 49.5rem;
+padding: 0 2rem;
+margin: 0 auto;
+`;
+export const TitleLicenses = styled.h2`
+  font-size: 2em;
+  color: #000;
+`;
+
+export const ContainerLicenses = styled.div`
 display: flex;
 flex-direction: column;
 justify-content: space-between; 
 gap:3rem;
 align-items: flex-start;
-padding: 0 2rem;
-margin: 0 auto;
+`;
 
-
-`;export const ContainerLicenses = styled.div`
+export const LicenseItem = styled.div`
 max-height: 20.5rem;
 width: 760px;
 margin-bottom: 16px;
 display: flex;
+align-items: center;
 gap: 3rem;
 border: 1px solid #ccc;
 border-radius: 10px;
-align-items: center;
 padding: 1rem 2rem;
 margin: 0 auto;
 
