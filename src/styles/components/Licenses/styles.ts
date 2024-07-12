@@ -11,7 +11,6 @@ export const TitleLicenses = styled.h2`
   font-size: 2em;
   color: #000;
 `;
-
 export const ContainerLicenses = styled.div`
 display: flex;
 flex-direction: column;
