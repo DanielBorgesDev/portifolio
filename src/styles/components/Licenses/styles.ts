@@ -11,16 +11,24 @@ export const TitleLicenses = styled.h2`
   font-size: 2em;
   color: #000;
 `;
+
 export const ContainerLicenses = styled.div`
 display: flex;
 flex-direction: column;
 justify-content: space-between; 
 gap:3rem;
-align-items: flex-start;
-padding: 0 2rem;
 margin: 0 auto;
+
+@media (${Styles.devices.mobileL}) {
+  width: 100%;
+  padding: 1rem;
+  gap: 1rem;
+}
+`;
+
+export const LicenseItem = styled.div`
 max-height: 20.5rem;
-width: 760px;
+width: 730px;
 margin-bottom: 16px;
 display: flex;
 gap: 3rem;
@@ -29,13 +37,6 @@ border-radius: 10px;
 align-items: center;
 padding: 1rem 2rem;
 margin: 0 auto;
-
-@media (${Styles.devices.mobileL}) {
-  flex-direction: column;
-  width: 100%;
-  padding: 1rem;
-  gap: 1rem;
-}
 `;
 
 export const IconWrapper = styled.div`
