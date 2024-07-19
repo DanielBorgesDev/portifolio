@@ -87,32 +87,39 @@ color: #5e5e5e;
 `;
 
 export const LinkedInButton = styled.a`
-width: 12rem;
-display: flex;
-cursor: pointer;
-align-items: center;
-gap: 1rem;
-justify-content: center;
-border-radius: 1.6rem;
-padding: 0 1.6rem;
-border: 1px solid #5e5e5e;
-background-color: #fff;
-user-select: none;
-text-decoration: none;
-color: inherit;
+  width: 12rem;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  border-radius: 1.6rem;
+  padding: 0 1.6rem;
+  border: 1px solid #5e5e5e;
+  background-color: #fff;
+  user-select: none;
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
 
-& img {
-  width: 0.8rem;
-  height: 1rem;
-  padding-bottom: 2px;
-}
-@media (${Styles.devices.mobileL}) {
+  & img {
+    width: 0.8rem;
+    height: 1rem;
+    padding-bottom: 2px;
+  }
+
+  &:hover {
+    background-color: #f0f0f0;
+    border-color: #999;
+    color: #000;
+  }
+
+  @media (${Styles.devices.mobileL}) {
     max-width: 300px; 
     padding: 0.8rem;
     gap: 0.5rem;
   }
 `;
-
 
 
 export const SimpleText = styled.div`

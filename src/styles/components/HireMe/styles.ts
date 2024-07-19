@@ -41,7 +41,11 @@ export const GithubButton = styled.a`
     user-select: none;
     text-decoration: none; 
     color: inherit;
- 
+    &:hover {
+    background-color: #f0f0f0;
+    border-color: #999;
+    color: #000;
+  }
     & img {
         width: 2rem;
         height: 2rem;
@@ -71,7 +75,11 @@ export const LinkedinButton = styled.a`
     user-select: none;
     text-decoration: none; 
     color: inherit;
- 
+    &:hover {
+    background-color: #f0f0f0;
+    border-color: #999;
+    color: #000;
+  }
     & img {
         width: 2rem;
         height: 2rem;

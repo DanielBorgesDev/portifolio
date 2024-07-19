@@ -40,6 +40,8 @@ export const TextareaForm = styled.textarea`
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
   padding: 0.75rem 1rem;
   border-radius: 0.375rem;
+  resize: none;
+
   ::placeholder {
     color: #a0aec0;
   }
@@ -57,9 +59,12 @@ export const ButtonForm = styled.button`
   color: white;
   background-color: #964b00;
   opacity: ${({ disabled }) => (disabled ? 0.5 : 1)};
-  transition: background-color 0.3s, opacity 0.3s;
+  transition: background-color 0.3s, opacity 0.3s, color 0.3s;
+  user-select: none;
+  text-decoration: none;
+  cursor: pointer;
 
   &:hover {
-    background-color: ${({ disabled }) => !disabled && 'rgba(210, 155, 116, 0.8)'};
+    background-color: ${({ disabled }) => !disabled && '#b36e33'};
   }
 `;
